@@ -10,3 +10,8 @@
 .contact:hover {
   text-decoration: underline;
 }
+
+.container {
+  background-color: #ffffff;
+  color: white;
+}
