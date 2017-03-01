@@ -7,7 +7,7 @@ function Contact(first, last) {
 function Address(street, city, county) {
  this.street=street;
  this.city=city;
- this.country=country;
+ this.country=county;
 }
 Contact.prototype.fullName=function() {
   return this.firstName + " " + this.lastName;
